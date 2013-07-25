@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for i in [^_]*.html; do
+  xsltproc --html transform.xsl ./$i > ../out/$i
+done
+cp -R css ../out

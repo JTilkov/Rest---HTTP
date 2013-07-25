@@ -1,0 +1,254 @@
+/*  
+Theme Name: REST und HTTP
+Theme URI: http://rest-http.info
+Description: Deutsches Theme für die Website "REST und HTTP"
+basiert auf dem WordPress Theme <a href="http://www.fightingfriends.com/daydream/">DayDream</a> in seiner deutschen Bearbeitung von <a href="http://www.net-tec.biz">Jens Kleinholz</a>. 
+Version: 0.1 [de]
+Author: Stefan Tilkov
+Author URI: http://tilkov.de/stefan
+*/
+
+/* 	++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+BODY, WRAPPINGS, ANCHORS
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family:"PT Serif",Georgia,Times,"Times New Roman",serif;
+	font-size: 0.95em;
+	background-color:white;
+	/*background-color: rgb(12, 92, 172);*/
+
+}
+
+.data, .postmetadata {
+      font-size: 0.8em;
+}
+
+.post h2 {
+	margin: 1.0em 0 0.1em 0;
+}
+
+.postmetadata {
+	margin: 1.0em 0 0.1em 0;
+}
+
+#wrapper {
+	width: 800px;
+	margin: 0 auto;
+}
+
+h1, h2, h3, a, a:visited {
+	color:008500;
+	background-color: transparent;
+}
+
+h1 {
+	font-size: 1.0em;
+}
+
+h2 {
+	font-size: 1.0em;
+}
+
+p {
+	text-align: justify;
+}
+
+a, a:visited, a:hover {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+
+/* 	++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+HEADER, HEADINGS, what not
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+#header {
+	width: 800px;
+	height: 270px;
+	margin: 0 auto;
+	background:#fff url(./Koala.jpeg)center;
+	text-align: center;
+}
+
+
+
+
+#topbar {
+	height: 30px;
+	width: 800px;
+	background-color:008500;
+	margin: 0;
+	border-bottom: 2px solid #53B97C;
+	font-family:Symbol;
+}
+
+#topbar ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#topbar ul li {
+	display: block;
+	list-style: none;			
+	float: left;
+	color: #fff;
+	font-size: 0.85em;
+	font-weight: bold;
+}
+
+#topbar ul li a, #topbar ul li a:visited {
+				float: center;
+				display: block;
+				padding: 6px 8px 0 8px;
+				height: 22px;
+				color: #fff;
+				text-decoration: none;
+	                        vertical-align: middle;
+				}
+				
+				#topbar ul li a:hover { background:#2EB966; }
+
+/* 	++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+CONTENT
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+#content {                
+	/*background-color: rgb(229,240,213);*/
+	width: 800px;
+	margin: 0;
+	text-align: left;
+	padding: 0;
+}
+
+h4 a {
+	color: #006699;
+	text-decoration: none;
+}
+
+
+
+
+
+.navigation {
+	height: 18px;
+	font-size: 0.9em;
+	padding: 0;
+}
+
+.navigation a { color: #006699;	text-decoration: none; }
+.navigation a:hover { color: #003366; }
+
+.alignleft {
+	float: left;
+	text-align: left;
+}
+
+.alignright {
+	float: right;
+	text-align: right;
+}
+
+
+.feedicon {
+	width: 16px;
+	height: 16px;
+}
+
+
+#topbar .feedicon {
+	background: url("./images/feedicon_blue_bg.png") no-repeat;
+	display: block;
+	display: inline; /* IE */
+	float: center;
+	margin: 5px 10px 0 0;
+}
+
+
+
+#inner {
+	padding: 10px 10px 10px 10px;
+	margin: 0;
+	/*background-color: rgb(240,248,232);*/
+}
+
+
+ol.toc {
+	margin-bottom: 0;
+}
+
+ol.faq li a {
+	font-weight: bold;
+}
+
+#footer {
+        clear: both;
+	padding-left: 10px;
+	font-size: 0.8em;
+}
+
+#footer a, #footer a:visited {
+	font-weight: bold;
+}
+
+
+#commentformarea form textarea {
+	width: 612px;
+}
+
+#home-text {
+ float: left;
+ width: 80%;
+}
+
+#home-side {
+ float: right;
+}
+
+#content-summary {
+  float: left;
+  width: 40%;
+}
+
+#content-summary ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#content-summary li {
+  margin: 1.0em 0 0 0;
+  padding: 0;
+}
+
+#outline {
+  float: right;
+}
+
+#outline ul {
+	list-style-type: none;
+        margin-left: 10px;
+        padding-left: 10px;
+}
+
+#outline > ul > li {
+ margin-top: 0.8em;
+}
+
+#post-7 ol {
+ margin: 0;
+ padding: 0;
+}
+
+#post-7 li {
+ margin: 0.5em 0px 0px 20px
+}
+
